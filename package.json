@@ -1,0 +1,21 @@
+{
+  "name": "canon-excel-dump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.9.0",
+    "dotenv": "^10.0.0",
+    "lodash": "^4.17.21",
+    "mariadb": "^2.5.3",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "xlsx": "^0.17.0"
+  }
+}
