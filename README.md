@@ -23,7 +23,7 @@ DB_DATABASE="database-name"
 FILE_EXTENSION="xlsb"
 ```
 
-4. Run index.js
+4. Run `index.js`
 
 ```
 npm index.js
@@ -32,5 +32,5 @@ npm index.js
 The dump will be placed in current directory
 
 ```
-./out/[database-name]-dump.xlxs
+./out/[database-name]-dump.[file-extension]
 ```
